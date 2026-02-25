@@ -1,0 +1,319 @@
+<!-- Elevated Asset Management - Home Page (HTML) -->
+<!-- NOTE: Put CSS into Appearance > Customize > Additional CSS -->
+<!-- Optional JS at the bottom can go into WPCode or into this block -->
+
+<main class="elevated">
+
+  <!-- HERO -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero__overlay"></div>
+
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <div class="eyebrow">Worcester County • Multifamily + Condominium Specialists</div>
+        <h1 class="hero__title">Property Management, Elevated.</h1>
+        <p class="hero__subtitle">
+          Elevated Asset Management delivers performance-driven leasing, vendor accountability,
+          and owner-level reporting—built for real estate investors and condominium associations.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#contact">Schedule a Strategy Call</a>
+          <a class="btn btn--ghost" href="#services">View Services</a>
+        </div>
+
+        <div class="hero__trust">
+          Serving Worcester • Shrewsbury • Grafton • Auburn • Fitchburg + surrounding areas
+        </div>
+      </div>
+
+      <!-- Quick Form Card -->
+      <aside class="card quickform" aria-label="Quick request form">
+        <h2 class="card__title">Get a Callback</h2>
+        <p class="card__text">Tell us what you own. We’ll reach out with next steps.</p>
+
+        <form class="form" action="#" method="post" onsubmit="return ElevatedLead.handleSubmit(event)">
+          <label class="label" for="doors">Units / Doors</label>
+          <input class="input" id="doors" name="doors" type="text" placeholder="e.g., 3 units" required>
+
+          <label class="label" for="location">Property Location</label>
+          <input class="input" id="location" name="location" type="text" placeholder="e.g., Worcester, MA" required>
+
+          <label class="label" for="name">Your Name</label>
+          <input class="input" id="name" name="name" type="text" placeholder="Your full name" required>
+
+          <label class="label" for="email">Email</label>
+          <input class="input" id="email" name="email" type="email" placeholder="you@email.com" required>
+
+          <label class="label" for="phone">Phone</label>
+          <input class="input" id="phone" name="phone" type="tel" placeholder="(###) ###-####">
+
+          <button class="btn btn--primary btn--full" type="submit">Request Callback</button>
+
+          <p class="form__note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="fineprint">
+          Prefer email? <a href="#contact">Send a message</a>.
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- VALUE PILLARS -->
+  <section class="section" aria-label="Value pillars">
+    <div class="container">
+      <header class="section__header">
+        <h2 class="section__title">Management that protects your asset.</h2>
+        <p class="section__subtitle">
+          We operate with systems, documentation, and accountability—so your property runs like an investment.
+        </p>
+      </header>
+
+      <div class="grid-3">
+        <article class="card">
+          <div class="icon" aria-hidden="true">📈</div>
+          <h3 class="card__title">Performance-Driven Leasing</h3>
+          <p class="card__text">Screening, pricing strategy, renewals, and compliance-first execution.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon" aria-hidden="true">🛠️</div>
+          <h3 class="card__title">Vendor Accountability</h3>
+          <p class="card__text">Documented work orders, clear scopes, timeline discipline, cost control.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon" aria-hidden="true">📊</div>
+          <h3 class="card__title">Owner-Level Reporting</h3>
+          <p class="card__text">Clear updates, documentation, and visibility—without chasing anyone down.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO WE SERVE -->
+  <section class="section section--alt" aria-label="Who we serve">
+    <div class="container split">
+      <div class="split__media" role="img" aria-label="Worcester multifamily exterior photo placeholder">
+        <div class="media__placeholder">
+          <div class="media__label">Image / Photo Area</div>
+          <div class="media__hint">Replace with your Worcester 3-family image</div>
+        </div>
+      </div>
+
+      <div class="split__content">
+        <h2 class="section__title">Built for serious owners and associations.</h2>
+        <p class="section__subtitle">
+          Whether you own a three-family or manage a condo association, we bring structure to operations.
+        </p>
+
+        <ul class="checklist">
+          <li>2–10 unit multifamily owners</li>
+          <li>Out-of-state investors</li>
+          <li>Condominium associations / HOAs</li>
+          <li>Portfolios scaling beyond self-management</li>
+        </ul>
+
+        <div class="actions">
+          <a class="btn btn--primary" href="#services">Explore Services</a>
+          <a class="btn btn--ghost" href="#process">How It Works</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAIN -> SOLUTION -->
+  <section class="section" aria-label="Pain and solution">
+    <div class="container">
+      <header class="section__header">
+        <h2 class="section__title">Replace chaos with systems.</h2>
+        <p class="section__subtitle">
+          Most properties aren’t underperforming—they’re under-managed.
+        </p>
+      </header>
+
+      <div class="grid-2">
+        <article class="card card--soft">
+          <h3 class="card__title">Common Pain Points</h3>
+          <ul class="bullets">
+            <li>Late or inconsistent rent collections</li>
+            <li>Weak screening and avoidable turnover</li>
+            <li>“Handyman roulette” and unclear scopes</li>
+            <li>No documentation, no visibility</li>
+            <li>Compliance and notice risk</li>
+          </ul>
+        </article>
+
+        <article class="card card--soft">
+          <h3 class="card__title">The Elevated System</h3>
+          <ul class="bullets">
+            <li>Professional leasing pipeline + renewal cadence</li>
+            <li>Vendor network with documented work orders</li>
+            <li>Proactive rent strategy + communication</li>
+            <li>Reporting discipline and clear accountability</li>
+            <li>Compliance-first operations</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="center actions">
+        <a class="btn btn--primary" href="#contact">Schedule a Call</a>
+        <a class="btn btn--ghost" href="#contact">Request a Proposal</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section section--alt" id="services" aria-label="Services">
+    <div class="container">
+      <header class="section__header">
+        <h2 class="section__title">Core services</h2>
+        <p class="section__subtitle">Everything you need to operate professionally and scale responsibly.</p>
+      </header>
+
+      <div class="grid-3">
+        <article class="tile">
+          <h3 class="tile__title">Leasing + Screening</h3>
+          <p class="tile__text">Applications, background checks, pricing strategy, tenant onboarding.</p>
+        </article>
+        <article class="tile">
+          <h3 class="tile__title">Rent Collection + Ledgers</h3>
+          <p class="tile__text">Consistent collection process, records, and owner visibility.</p>
+        </article>
+        <article class="tile">
+          <h3 class="tile__title">Maintenance Coordination</h3>
+          <p class="tile__text">Work orders, vendor scheduling, scopes, documentation.</p>
+        </article>
+        <article class="tile">
+          <h3 class="tile__title">Turnovers + Make-Ready</h3>
+          <p class="tile__text">Timeline discipline, vendor coordination, readiness standards.</p>
+        </article>
+        <article class="tile">
+          <h3 class="tile__title">Owner Reporting</h3>
+          <p class="tile__text">Updates, documentation, and performance visibility.</p>
+        </article>
+        <article class="tile">
+          <h3 class="tile__title">Compliance Support</h3>
+          <p class="tile__text">Notices, documentation, operational guardrails.</p>
+        </article>
+      </div>
+
+      <div class="center">
+        <a class="link" href="#contact">Want a full service menu? Let’s talk →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section" id="process" aria-label="Process">
+    <div class="container">
+      <header class="section__header">
+        <h2 class="section__title">How it works</h2>
+        <p class="section__subtitle">Simple. Structured. Built for owners who value clarity.</p>
+      </header>
+
+      <div class="grid-3">
+        <article class="card">
+          <div class="step">1</div>
+          <h3 class="card__title">Strategy Call</h3>
+          <p class="card__text">We review your property, goals, and current pain points.</p>
+        </article>
+
+        <article class="card">
+          <div class="step">2</div>
+          <h3 class="card__title">Onboarding</h3>
+          <p class="card__text">Docs, keys, vendor setup, tenant comms, systems activation.</p>
+        </article>
+
+        <article class="card">
+          <div class="step">3</div>
+          <h3 class="card__title">Stabilize + Optimize</h3>
+          <p class="card__text">Renewals, rent strategy, maintenance cadence, reporting discipline.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTHORITY -->
+  <section class="section section--alt" aria-label="Authority section">
+    <div class="container authority">
+      <h2 class="section__title">Real estate is an asset class. We manage it that way.</h2>
+      <p class="section__subtitle">
+        Elevated Asset Management operates with investment-level standards—so operations, communication,
+        and documentation stay tight as your portfolio grows.
+      </p>
+
+      <ul class="checklist checklist--tight">
+        <li>Rent optimization + renewals strategy</li>
+        <li>Expense control through vendor accountability</li>
+        <li>Documentation + reporting discipline</li>
+      </ul>
+
+      <div class="actions center">
+        <a class="btn btn--primary" href="#contact">Talk to Management</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FINAL CTA -->
+  <section class="section" id="contact" aria-label="Contact">
+    <div class="container contact">
+      <div class="contact__copy">
+        <h2 class="section__title">Ready for professional management?</h2>
+        <p class="section__subtitle">
+          Tell us what you own and what you want to improve. We’ll map the next best step.
+        </p>
+
+        <div class="contact__details">
+          <div><strong>Email:</strong> you@elevatedassetmanagement.com</div>
+          <div><strong>Phone:</strong> (###) ###-####</div>
+          <div class="muted">Replace these with your real contact info.</div>
+        </div>
+      </div>
+
+      <div class="card contact__card">
+        <h3 class="card__title">Send a message</h3>
+        <p class="card__text">We respond quickly. Clear answers, no pressure.</p>
+
+        <!-- Replace with your WP form plugin shortcode if you want -->
+        <form class="form" action="#" method="post" onsubmit="return ElevatedLead.handleSubmit(event, true)">
+          <label class="label" for="cname">Name</label>
+          <input class="input" id="cname" name="cname" type="text" required>
+
+          <label class="label" for="cemail">Email</label>
+          <input class="input" id="cemail" name="cemail" type="email" required>
+
+          <label class="label" for="cmsg">Message</label>
+          <textarea class="textarea" id="cmsg" name="cmsg" rows="5" placeholder="Tell us about the property..." required></textarea>
+
+          <button class="btn btn--primary btn--full" type="submit">Send</button>
+          <p class="form__note" id="contactNote" role="status" aria-live="polite"></p>
+        </form>
+
+        <p class="fineprint">
+          Tip: If you’re using Contact Form 7 / WPForms, replace this whole form with your shortcode.
+        </p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Optional JS (works as-is). Better: put into WPCode as a site-wide snippet -->
+<script>
+  const ElevatedLead = {
+    handleSubmit(e, isContactForm = false) {
+      e.preventDefault();
+
+      const noteId = isContactForm ? "contactNote" : "formNote";
+      const note = document.getElementById(noteId);
+      if (!note) return false;
+
+      // This demo doesn’t actually send anywhere.
+      // Replace with your form plugin or connect to an endpoint.
+      note.textContent = "Submitted. Next step: connect this form to WPForms/CF7 or your email.";
+      return false;
+    }
+  };
+</script>
