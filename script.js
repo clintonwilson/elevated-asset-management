@@ -1,1 +1,0 @@
-console.log("Elevated Asset Management site loaded.");
