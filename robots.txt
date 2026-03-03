@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://elevatedassetmgmt.com/sitemap.xml
